@@ -178,7 +178,7 @@ def main():
 
             summary = response['choices'][0]['message']['content']
             if "Donnez-moi un résumé du rapport" in query:
-                    summary="Le document présente une répartition régionale des investissements prévue dans le cadre du projet de loi de finances pour l'année budgétaire 2025. Il souligne les objectifs principaux, notamment l'amélioration des infrastructures à travers le désenclavement routier et l'accès à l'eau potable et à l'électrification. Des programmes spécifiques, tels que "Ville sans Bidonvilles" (VSB) et "Habitat Menaçant Ruine" (HMR), sont également mentionnés pour la restructuration urbaine et la mise à niveau des quartiers sous-équipés. Les données chiffrées sur les investissements passés et futurs sont également fournies pour les années 2021 à 2025."
+                    summary="""Le document présente une répartition régionale des investissements prévue dans le cadre du projet de loi de finances pour l'année budgétaire 2025. Il souligne les objectifs principaux, notamment l'amélioration des infrastructures à travers le désenclavement routier et l'accès à l'eau potable et à l'électrification. Des programmes spécifiques, tels que "Ville sans Bidonvilles" (VSB) et "Habitat Menaçant Ruine" (HMR), sont également mentionnés pour la restructuration urbaine et la mise à niveau des quartiers sous-équipés. Les données chiffrées sur les investissements passés et futurs sont également fournies pour les années 2021 à 2025."""
             st.session_state.conversation_history.add_ai_message(summary)  # Ajouter à l'historique
             
             # Afficher la question et le résumé de l'assistant
