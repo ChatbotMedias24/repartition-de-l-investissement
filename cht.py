@@ -115,7 +115,7 @@ questions = [
         "Quels types d'infrastructures sont ciblés par le projet de loi de finances de 2025 ?",
         "Quelles sont les principales réalisations des programmes d'investissement entre 2021 et 2024 ?",      
         "Comment le projet de loi de finances 2025 prévoit-il de réduire les disparités régionales en termes d'investissement ?",
-        """Quels sont les objectifs du programme "Ville sans Bidonvilles" (VSB) pour 2025 ?"""
+        """Quels sont les objectifs du programme "Ville sans Bidonvilles" (VSB) pour 2025 ?"""]
 
 # Initialisation de l'historique de la conversation dans `st.session_state`
 if 'conversation_history' not in st.session_state:
